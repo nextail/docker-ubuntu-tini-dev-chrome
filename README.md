@@ -1,6 +1,6 @@
 # Docker image with development tools and Google Chrome
 
-This is a Docker image based on [rubensa/ubuntu-tini-dev](https://github.com/rubensa/docker-ubuntu-tini-dev) and chrome for headless development.
+This is a Docker image based on [nextail/ubuntu-tini-dev](https://github.com/nextail/docker-ubuntu-tini-dev) and chrome for headless development.
 
 ## Building
 
@@ -9,7 +9,7 @@ You can build the image like this:
 ```
 #!/usr/bin/env bash
 
-DOCKER_REPOSITORY_NAME="rubensa"
+DOCKER_REPOSITORY_NAME="nextail"
 DOCKER_IMAGE_NAME="ubuntu-tini-dev-chrome"
 DOCKER_IMAGE_TAG="latest"
 
@@ -30,7 +30,7 @@ You can run the container like this (change --rm with -d if you don't want the c
 ```
 #!/usr/bin/env bash
 
-DOCKER_REPOSITORY_NAME="rubensa"
+DOCKER_REPOSITORY_NAME="nextail"
 DOCKER_IMAGE_NAME="ubuntu-tini-dev-chrome"
 DOCKER_IMAGE_TAG="latest"
 
